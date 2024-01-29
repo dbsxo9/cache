@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/fastsns"
+    username: root
+    password: azzu8380!!
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+  jpa:
+    hibernate:
+      #ddl-auto: create
+    ddl-auto: update #???? update table? ??? drop????
+    show-sql: true
