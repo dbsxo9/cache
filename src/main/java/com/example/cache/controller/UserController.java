@@ -23,4 +23,9 @@ public class UserController {
     public RedisHashUser getUser2(@PathVariable Long id){
         return userService.getUser2(id);
     }
+
+    @GetMapping("users3/{id}")
+    public User getUser3(@PathVariable Long id){
+        return userService.getUser3(id);
+    }
 }
